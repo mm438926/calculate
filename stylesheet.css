@@ -1,0 +1,26 @@
+body {
+  font-size: 20px;
+  font-family: serif;
+  line-height: 1.8;
+}
+
+form {
+  display: block;
+  margin: 70px;
+}
+
+.mado {
+  text-align: right;
+  width: 130px;
+  height: 30px;
+}
+
+.kigou {
+  font-size: 16px;
+}
+
+.botan input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
