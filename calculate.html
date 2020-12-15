@@ -11,28 +11,32 @@
       <td><input class="mado" type="text" name="text" value="0"></td>
       <table class="botan">
         <tr>
+          <td><input type="button" value="+/-" onclick=""></td>
           <td><input type="button" value="7" onclick="clic(7)"></td>
           <td><input type="button" value="8" onclick="clic(8)"></td>
           <td><input type="button" value="9" onclick="clic(9)"></td>
-          <td><input class="kigou" type="button" value="÷" onclick="enzan('/')"></td>
+          <td><input type="button" value="÷" onclick="enzan('/')"></td>
         </tr>
         <tr>
+          <td><input type="button" value="AC" onclick="kesu('AC')"></td>
           <td><input type="button" value="4" onclick="clic(4)"></td>
           <td><input type="button" value="5" onclick="clic(5)"></td>
           <td><input type="button" value="6" onclick="clic(6)"></td>
-          <td><input class="kigou" type="button" value="×" onclick="enzan('*')"></td>
+          <td><input type="button" value="×" onclick="enzan('*')"></td>
         </tr>
         <tr>
+          <td><input type="button" value="C" onclick="kesu('C')"></td>
           <td><input type="button" value="1" onclick="clic(1)"></td>
           <td><input type="button" value="2" onclick="clic(2)"></td>
           <td><input type="button" value="3" onclick="clic(3)"></td>
-          <td><input class="kigou" type="button" value="-" onclick="enzan('-')"></td>
+          <td><input type="button" value="-" onclick="enzan('-')"></td>
         </tr>
         <tr>
           <td><input type="button" value="0" onclick="clic(0)"></td>
-          <td><input type="button" value="C" onclick="clear()"></td>
+          <td><input type="button" value="00" onclick="clic('00')"></td>
+          <td><input type="button" value="." onclick="period('.')"></td>
           <td><input type="button" value="=" onclick="enzan('=')"></td>
-          <td><input class="kigou" type="button" value="+" onclick="enzan('+')"></td>
+          <td><input type="button" value="+" onclick="enzan('+')"></td>
         </tr>
       </table>
     </form>
